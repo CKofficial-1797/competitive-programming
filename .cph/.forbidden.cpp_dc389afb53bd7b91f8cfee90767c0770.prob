@@ -1,0 +1,1 @@
+{"name":"Local: forbidden","url":"c:\\Users\\Dell\\OneDrive\\Desktop\\CP\\cp folder\\forbidden.cpp","tests":[{"id":1755439817631,"input":"5\n10 3 2\n5 2 1\n4 2 1\n7 7 3\n6 1 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Dell\\OneDrive\\Desktop\\CP\\cp folder\\forbidden.cpp","group":"local","local":true}
