@@ -1,0 +1,1 @@
+{"name":"Local: companyQueries","url":"c:\\Users\\Dell\\OneDrive\\Desktop\\CP\\cp folder\\cses\\companyQueries.cpp","tests":[{"id":1755708160085,"input":"5 3\n1 1 3 3 \n4 1\n4 2\n4 3\n","output":"3\n1\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Dell\\OneDrive\\Desktop\\CP\\cp folder\\cses\\companyQueries.cpp","group":"local","local":true}
