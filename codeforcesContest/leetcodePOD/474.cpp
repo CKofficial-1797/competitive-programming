@@ -1,0 +1,27 @@
+#include <vector>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+    static pair<int,int> countBits(const string& s) {
+        int z = 0, o = 0;
+        for (char c : s) (c == '0') ? ++z : ++o;
+        return {z, o};
+    }
+public:
+    int findMaxForm(vector<string>& strs, int m, int n) {
+        vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+
+        for (const string& s : strs) {
+            auto [z, o] = countBits(s);
+            
+            for (int i = m; i >= z; --i) {
+                for (int j = n; j >= o; --j) {
+                    dp[i][j] = max(dp[i][j], 1 + dp[i - z][j - o]);
+                }
+            }
+        }
+        return dp[m][n];
+    }
+};
